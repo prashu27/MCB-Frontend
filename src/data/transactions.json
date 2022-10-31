@@ -1,0 +1,55 @@
+[
+  {
+    "customerType": "NEW",
+    "reference": "CUS202210300001",
+    "customer" :{
+      "customerNo": 123456,
+      "customerName": "Test Customer 1",
+      "address": "XYZ streeet, city: xyz, state: abc",
+      "phoneNo": 987654321
+    },
+    "transferAmt": 123,
+    "transferCurrency": "USD",
+    "beneficiaryBank": "ICICI",
+    "beneficiaryAccountNo": 123456789,
+    "paymentDetails": "CREDIT CARD",
+    "cardDetails": "0000-1111-2222-3333",
+    "region": "vacoas"
+  },
+
+  {
+    "customerType": "EXISTING",
+    "reference": "CUS202210300002",
+    "customer" :{
+      "customerNo": 11111,
+      "customerName": "Test Customer 2",
+      "address": "XYZ streeet, city: xyz, state: abc",
+      "phoneNo": 987654321
+    },
+    "transferAmt": 111,
+    "transferCurrency": "USD",
+    "beneficiaryBank": "ICICI",
+    "beneficiaryAccountNo": 555555,
+    "paymentDetails": "CREDIT CARD",
+    "cardDetails": "0000-1111-2222-3333",
+    "region": "portLouis"
+  },
+
+  {
+    "customerType": "NEW",
+    "reference": "CUS202210300003",
+    "customer" :{
+      "customerNo": 22222,
+      "customerName": "Test Customer 3",
+      "address": "XYZ streeet, city: xyz, state: abc",
+      "phoneNo": 99887766
+    },
+    "transferAmt": 1000,
+    "transferCurrency": "USD",
+    "beneficiaryBank": "ICICI",
+    "beneficiaryAccountNo": 1223334444,
+    "paymentDetails": "CREDIT CARD",
+    "cardDetails": "0000-1111-2222-3333",
+    "region": "portMathurin"
+  }
+]
